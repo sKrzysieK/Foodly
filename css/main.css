@@ -1,0 +1,62 @@
+/* Main */
+
+main {
+  width: 100%;
+  min-height: calc(100% - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: var(--background-image);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+/* Section */
+
+.card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--suplementary-color);
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    width: 100%;
+    height: auto;
+    min-height: calc(100% - 200px);
+  }
+
+  .card {
+    flex-direction: row;
+    width: 75%;
+    max-width: 1000px;
+    height: 500px;
+  }
+
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    width: 80%;
+  }
+
+ 
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    border-radius: 0%;
+    margin: 0;
+    height: 100%;
+  }
+
+  
+}
+

@@ -1,0 +1,19 @@
+/* Logo */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  background-color: var(--highlight-color);
+  border-radius: 20%;
+}
+
+.logo path {
+  fill: white;
+}
+
+.logo svg {
+  height: 70%;
+  width: 80%;
+}

@@ -1,0 +1,118 @@
+#order-slogan {
+  width: 100%;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#order-slogan h2 {
+  color: var(--suplementary-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+}
+
+#order-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#form-slogan {
+  text-align: center;
+  color: var(--main-bg-color);
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.row {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.order_text,
+.additional_info {
+  width: 100%;
+}
+
+#order-input {
+  height: 200px;
+}
+
+#form-submit-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#order-btn {
+  width: 100%;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 5px;
+  background-color: var(--main-bg-color);
+}
+
+#order-btn:hover {
+  background-color: var(--highlight-color);
+  color: var(--main-bg-color);
+}
+
+input[type="text"],
+input[type="number"] {
+  height: 30px;
+}
+
+label {
+  font-size: 20px;
+  color: var(--main-bg-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+  #order-slogan {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  #order-form {
+    border-radius: 0% 20px 20px 0%;
+    width: 50%;
+    height: 100%;
+  }
+
+  .row {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #order-slogan {
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  #order-form {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}

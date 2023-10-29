@@ -1,0 +1,35 @@
+/* Root settings */
+:root {
+  --main-bg-color: #372772;
+  --highlight-color: #e55812;
+  --suplementary-color: #a288e3;
+
+  --slogan-font-family: "Lobster", cursive;
+
+  --background-image: url("../public/images/bckg-image.png");
+}
+
+/* General */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+}

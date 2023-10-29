@@ -1,0 +1,49 @@
+/* Header */
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+#heading {
+  height: 50%;
+  width: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 25px;
+}
+
+#header-logo {
+  height: 100%;
+  margin-right: 15px;
+}
+
+h1 {
+  color: var(--highlight-color);
+  font-size: 50px;
+  font-family: var(--slogan-font-family);
+  margin: 0;
+  user-select: none;
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+  #heading h1 {
+    display: none;
+  }
+
+  header {
+    border-bottom: 2px solid var(--suplementary-color);
+  }
+}
